@@ -630,6 +630,78 @@ a:focus {
     background-color: #fff;
 }
 
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    display: flow-root;
+    gap: 24px;
+    padding: 8px 0;
+}
+
+.c-footer__logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 56.4em;
+}
+
+.c-footer__nav {
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 56.4em;
+}
+
+.c-footer__link,
+.c-footer__link:visited,
+.c-footer__link:active {
+    text-decoration: none;
+    color: #202024;
+}
+
+.c-footer__link:hover,
+.c-footer__link:focus {
+    color: #5051db;
+}
+
+@media (min-width: 768px) {
+    .c-footer {}
+
+    .c-footer__logo {
+        
+    }
+
+    .c-footer__nav {}
+}
+
+@media (min-width: 992px) {
+    .c-footer {}
+
+    .c-footer__logo {}
+
+    .c-footer__logo .c-logo {
+        
+    }
+
+    .c-footer__nav {}
+}
+
+/*
+    Component: title-icon
+    ---
+    title-icon of articles of the website
+*/
+
+.c-title-icon{
+    display: flex;
+    max-width: 15em;
+}
+
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
