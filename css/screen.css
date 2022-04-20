@@ -189,6 +189,12 @@ a:focus {
     display: flow-root;
 }
 
+/* color modifiers */
+.o-row—neutral-x-light {
+    background-color: #F7F7F7;
+}
+
+
 /* size modifiers */
 
 .o-row--lg {
@@ -408,6 +414,11 @@ a:focus {
 
     .c-header__nav {
         display: block;
+    }
+
+    .c-header__atricle {
+        align-items: center;
+        color: red;
     }
 }
 
